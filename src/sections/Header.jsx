@@ -11,7 +11,7 @@ const Header = () => {
   }
   return (
     <header>
-      <nav className='flex justify-around bg-slate-950 text-white font-sans p-2 md:p-3 lg:p-2 fixed shadow-md w-full items-center z-10'>
+      <nav className='flex justify-around bg-slate-950 text-white font-sans p-2 md:p-3 lg:p-2 fixed shadow-md w-full items-center z-20'>
       <h1 className='w-1/2 md:ml-5 text-csGreen text-2xl font-bold'>CodeX-RJ</h1>
       <ul className='hidden md:flex justify-around w-1/2 text-lg'>
         <li className='hover:text-csGreen cursor-pointer transition-all text-sm lg:text-base xl:text-lg'>HOME</li>
@@ -26,12 +26,12 @@ const Header = () => {
         <span className={`block w-full h-1 bg-csGreen m-2 ${menuOpen ? '-rotate-45 -translate-y-3' : 'rotate-0' } transition-transform ease-linear duration-200`}></span>
       </button>
     </nav>
-    <ul className={`bg-gray-900 pt-14 absolute left-0 w-full transition-all duration-1000 md:hidden ease-in-out ${menuOpen ? "top-0" : "-top-full"} transform`}>
-      <li className='text-center text-lg font-semibold p-4 text-csGreen hover:text-black hover:bg-csGreen transition-all duration-200' onClick={toggleMenu}>HOME</li>
-      <li className='text-center text-lg font-semibold p-4 text-csGreen hover:text-black hover:bg-csGreen transition-all duration-200' onClick={toggleMenu}>ABOUT ME</li>
-      <li className='text-center text-lg font-semibold p-4 text-csGreen hover:text-black hover:bg-csGreen transition-all duration-200' onClick={toggleMenu}>SKILLS</li>
-      <li className='text-center text-lg font-semibold p-4 text-csGreen hover:text-black hover:bg-csGreen transition-all duration-200' onClick={toggleMenu}>PROJECTS</li>
-      <li className='text-center text-lg font-semibold p-4 text-csGreen hover:text-black hover:bg-csGreen transition-all duration-200' onClick={toggleMenu}>CONTACT ME</li>
+    <ul className={`pt-14 absolute left-0 w-full transition-all duration-1000 md:hidden ease-in-out ${menuOpen ? "top-0" : "-top-full"} transform z-10`}>
+      <li className='bg-gray-900 text-center text-lg font-semibold p-4 text-csGreen hover:text-black hover:bg-csGreen transition-all duration-200 ' onClick={toggleMenu}>HOME</li>
+      <li className=' bg-gray-900 text-center text-lg font-semibold p-4 text-csGreen hover:text-black hover:bg-csGreen transition-all duration-200 ' onClick={toggleMenu}>ABOUT ME</li>
+      <li className=' bg-gray-900 text-center text-lg font-semibold p-4 text-csGreen hover:text-black hover:bg-csGreen transition-all duration-200 ' onClick={toggleMenu}>SKILLS</li>
+      <li className=' bg-gray-900 text-center text-lg font-semibold p-4 text-csGreen hover:text-black hover:bg-csGreen transition-all duration-200 ' onClick={toggleMenu}>PROJECTS</li>
+      <li className='bg-gray-900 text-center text-lg font-semibold p-4 text-csGreen hover:text-black hover:bg-csGreen transition-all duration-200 ' onClick={toggleMenu}>CONTACT ME</li>
     </ul>
     </header>
     
