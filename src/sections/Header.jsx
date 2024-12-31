@@ -26,7 +26,7 @@ const Header = () => {
         <span className={`block w-full h-1 bg-csGreen m-2 ${menuOpen ? '-rotate-45 -translate-y-3' : 'rotate-0' } transition-transform ease-linear duration-200`}></span>
       </button>
     </nav>
-    <ul className={`pt-14 absolute left-0 w-full transition-all duration-1000 md:hidden ease-in-out ${menuOpen ? "top-0" : "-top-full"} transform z-10`}>
+    <ul className={`pt-14 fixed left-0 w-full transition-all duration-1000 md:hidden ease-in-out ${menuOpen ? "top-0" : "-top-full"} transform z-10`}>
       <li className='bg-gray-900 text-center text-lg font-semibold p-4 text-csGreen hover:text-black hover:bg-csGreen transition-all duration-200 ' onClick={toggleMenu}>HOME</li>
       <li className=' bg-gray-900 text-center text-lg font-semibold p-4 text-csGreen hover:text-black hover:bg-csGreen transition-all duration-200 ' onClick={toggleMenu}>ABOUT ME</li>
       <li className=' bg-gray-900 text-center text-lg font-semibold p-4 text-csGreen hover:text-black hover:bg-csGreen transition-all duration-200 ' onClick={toggleMenu}>SKILLS</li>
