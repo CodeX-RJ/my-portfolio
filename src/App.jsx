@@ -3,6 +3,7 @@ import Header from "./sections/Header"
 import HeroSection from "./sections/HeroSection"
 import About from "./sections/About"
 import Skills from "./sections/Skills"
+import Education from "./sections/Education"
 
 export default function App() {
 
@@ -12,6 +13,7 @@ export default function App() {
     <HeroSection/>
     <About/>
     <Skills/>
+    <Education/>
     </>
   )
 }

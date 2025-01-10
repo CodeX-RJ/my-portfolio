@@ -4,13 +4,12 @@ import { easeIn, easeInOut, motion } from "motion/react"
 const About = () => {
   return (
     <section className='bg-gray-950 h-full w-full flex flex-col-reverse md:flex-row p-6 md:p-10 items-center'>
-      <motion.div  initial={{ opacity: 0, x: -150 }}
-  whileInView={{ opacity: 1, x: 0 }}
-  transition={{
-    duration: 0.3, 
-    ease: 'easeInOut',  
-  }}
-   className='w-full md:w-2/6 my-5 '>
+      <motion.div  
+      initial={{ opacity: 0, x: -150 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{duration: 0.5, ease: 'easeInOut'}}
+      viewport={{once:true}} 
+       className='w-full md:w-2/6 my-5 '>
         <div className='bg-csGreen w-full h-80 relative'>
           <div className='bg-black w-full h-80 absolute top-3 left-3'>
 
@@ -18,10 +17,10 @@ const About = () => {
         </div>
       </motion.div>
       <motion.div className='flex flex-col w-full md:w-4/6 md:ml-12'
-      initial={{opacity: 0}}
-      whileInView={{opacity: 1}}
-      transition={{duration: 0.1, ease:'easeIn', delay: 0.5}}
-  
+      initial={{translateX: '40%', opacity: 0}}
+      whileInView={{translateX: '0',opacity: '100%'}}
+      transition={{duration: 0.5, ease:'easeIn', delay: 0.5}}
+      viewport={{once: true}}
       >
         <h1 className='text-csGreen font-bold text-2xl my-2'>
           ABOUT ME
