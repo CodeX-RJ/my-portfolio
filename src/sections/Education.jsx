@@ -14,7 +14,7 @@ const Education = () => {
 
   return (
     <section className='bg-gray-950 h-full p-8'>
-        <h1 className='text-csGreen font-bold text-2xl text-center py-10'>
+        <h1 className='text-csGreen font-bold text-2xl text-center py-20'>
           EDUCATION AND CERTIFICATIONS
         </h1>
         
