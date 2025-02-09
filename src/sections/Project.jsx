@@ -3,7 +3,7 @@ import Testimage from '../assets/test.png'
 import { easeIn, motion } from 'motion/react'
 import Weatherappimg from '../assets/weatherapp.png'
 import Snakegame from '../assets/snakegame.jpeg'
-import Schoolwebsite from '../assets/Schoolwebsite.png'
+import Schoolwebsite from '../assets/schoolwebsite.png'
 
 
 const Project = () => {
