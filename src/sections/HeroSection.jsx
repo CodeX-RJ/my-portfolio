@@ -7,7 +7,7 @@ const HeroSection = () => {
 
 
   return (
-    <section  className= ' bg-black flex flex-col md:flex-row pt-20 p-10 items-center pb-20'>
+    <section  className= ' bg-black flex flex-col md:flex-row pt-20 p-10 items-center pb-20' id='home'>
       <div className='flex flex-col md:w-1/2 '>
         <h1 className='text-white text-3xl  lg:text-4xl font-bold my-1 relative'>HEY! I'M CODEXRJ</h1>
         <motion.h1 className='text-black text-3xl  lg:text-4xl bg-black font-bold my-1 absolute'
@@ -40,18 +40,22 @@ const HeroSection = () => {
 
 
         <div className='flex-row my-10'>
+          <a href="#contact">
           <motion.button className='bg-csGreen border-2 border-csGreen  text-black m-2 ml-0 px-4 py-2 text-sm sm:text-lg font-semibold transition-colors duration-300 ease-linear hover:text-csGreen hover:bg-black'
           initial={{translateX:'-20%', opacity: 0}}
           whileInView={{translateX: 0, opacity: '100%'}}
           transition={{duration: 0.5, ease: 'easeIn', delay: 1}}
           viewport={{once: true}}
-          >Get In Touch</motion.button>
+          >Get In Touch</motion.button></a>
+
+          
+          <a href="#project">
           <motion.button className='border-2 border-csGreen text-csGreen md:m-2 my-2 px-4 py-2 text-sm  sm:text-lg font-semibold hover:text-black hover:bg-csGreen transition-colors duration-300 ease-linear'
           initial={{translateX:'-20%', opacity: 0}}
           whileInView={{translateX: 0, opacity: '100%'}}
           transition={{duration: 0.5, ease: 'easeIn', delay: 1.5}}
           viewport={{once: true}}
-        >View My Work</motion.button>
+        >View My Work</motion.button></a>
         </div>
       </div>
       <div className='w-full md:w-1/2 grid place-items-center md:p-8 mt-10 md:mt-0'>

@@ -14,11 +14,11 @@ const Header = () => {
       <nav className='flex justify-around bg-slate-950 text-white font-sans p-2 md:p-3 lg:p-2 fixed shadow-md w-full items-center z-20'>
       <h1 className='w-1/2 md:ml-5 text-csGreen text-2xl font-bold'>CodeX-RJ</h1>
       <ul className='hidden md:flex justify-around w-1/2 text-lg'>
-        <li className='hover:text-csGreen cursor-pointer transition-all text-sm lg:text-base xl:text-lg'>HOME</li>
-        <li className='hover:text-csGreen cursor-pointer transition-all text-sm lg:text-base xl:text-lg'>ABOUT ME</li>
-        <li className='hover:text-csGreen cursor-pointer transition-all text-sm lg:text-base xl:text-lg'>SKILLS</li>
-        <li className='hover:text-csGreen cursor-pointer transition-all text-sm lg:text-base xl:text-lg'>PROJECTS</li>
-        <li className='hover:text-csGreen cursor-pointer transition-all text-sm lg:text-base xl:text-lg'>CONTACT ME</li>
+        <li className='hover:text-csGreen cursor-pointer transition-all text-sm lg:text-base xl:text-lg'><a href="#home">HOME</a></li>
+        <li className='hover:text-csGreen cursor-pointer transition-all text-sm lg:text-base xl:text-lg'><a href="#about">ABOUT ME</a></li>
+        <li className='hover:text-csGreen cursor-pointer transition-all text-sm lg:text-base xl:text-lg'><a href="#skills">SKILLS</a></li>
+        <li className='hover:text-csGreen cursor-pointer transition-all text-sm lg:text-base xl:text-lg'><a href="#project">PROJECTS</a></li>
+        <li className='hover:text-csGreen cursor-pointer transition-all text-sm lg:text-base xl:text-lg'><a href="#contact">CONTACT ME</a></li>
       </ul>
       <button className='md:hidden w-8 p-0 ' onClick={toggleMenu}>
         <span className={`block w-full h-1 bg-csGreen m-2 ease-in-out ${menuOpen ? 'rotate-45 translate-y-3' : 'rotate-0 ' } transition-transform ease-linear duration-200`} ></span>

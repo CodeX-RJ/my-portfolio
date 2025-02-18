@@ -4,7 +4,7 @@ import { motion } from 'motion/react'
 import motionLogo from '../assets/motion_logo.png'
 const Skills = () => {
   return (
-    <section className='bg-gray-950 p-10'>
+    <section className='bg-gray-950 p-10' id='skills'>
       <h1 className='text-csGreen font-bold text-center text-2xl py-6'>
         SKILLS 
       </h1>

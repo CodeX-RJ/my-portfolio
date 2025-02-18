@@ -8,7 +8,7 @@ import Schoolwebsite from '../assets/schoolwebsite.png'
 
 const Project = () => {
   return (
-    <section className='bg-gray-950 p-5'>
+    <section className='bg-gray-950 p-5' id='project'>
         <h1 className='text-csGreen font-bold text-2xl text-center py-20'>
           MY WORK
         </h1> 
