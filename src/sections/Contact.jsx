@@ -1,11 +1,11 @@
 import React from 'react'
-import Codingbackground from '../assets/coding.svg'
+import Codingbackground from '../assets/coding.jpg'
 import { motion } from 'motion/react'
 
 const Contact = () => {
   return (
-    <section style={{backgroundImage: `url(${Codingbackground})`}} className='bg-cover bg-no-repeat p-5 md:px-20 lg:px-30 xl:px-40 md:pt-10' id='contact'>
-        <div className='backdrop-blur-md p-5 md:p-20'>
+    <section style={{backgroundImage: `url(${Codingbackground})`}} className='bg-cover bg-no-repeat' id='contact'>
+        <div className='backdrop-blur-sm p-5 md:p-40 lg:p-64 lg:py-5 md:pt-5'>
             <h1 className='text-csGreen font-bold text-2xl text-center pt-20 pb-5'>
                 LET'S CONNECT
             </h1>
