@@ -1,5 +1,4 @@
 import React from 'react'
-import backgroundImage from '../assets/bg-image.jpg';
 import heroImage from '../assets/heroImage.svg';
 import { motion } from 'motion/react';
 import 'animate.css'
