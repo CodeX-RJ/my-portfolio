@@ -29,9 +29,9 @@ const Project = () => {
             whileHover={{opacity: '100%'}}
             transition={{duration: 0.5, ease:'easeInOut'}}
             >
-              <a href="https://weatherappbyrj.netlify.app/" target="_blank" rel="noopener noreferrer"></a>
-              <motion.button className='bg-csGreen border-2 border-csGreen  text-black m-2 ml-0 px-4 py-2 text-sm sm:text-lg font-semibold transition-colors duration-300 ease-linear hover:text-csGreen hover:bg-black'
-              >View Project</motion.button>
+              <a href="https://weatherappbyrj.netlify.app/" target="_blank" rel="noopener noreferrer"><motion.button className='bg-csGreen border-2 border-csGreen  text-black m-2 ml-0 px-4 py-2 text-sm sm:text-lg font-semibold transition-colors duration-300 ease-linear hover:text-csGreen hover:bg-black'
+              >View Project</motion.button></a>
+              
             </motion.div>
           </motion.div>
 
