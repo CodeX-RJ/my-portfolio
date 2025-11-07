@@ -6,29 +6,29 @@ const HeroSection = () => {
 
 
   return (
-    <section  className= ' bg-black flex flex-col md:flex-row pt-20 p-10 items-center pb-20' id='home'>
+    <section  className= ' bg-black flex flex-col md:flex-row pt-20 p-10 items-center pb-20 lg:px-32' id='home'>
       <div className='flex flex-col md:w-1/2 '>
-        <h1 className='text-white text-3xl  lg:text-4xl font-bold my-1 relative'>HEY! I'M CODEXRJ</h1>
-        <motion.h1 className='text-black text-3xl  lg:text-4xl bg-black font-bold my-1 absolute'
+        <h1 className='text-white text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold my-1 relative'>HEY! I'M CODEXRJ</h1>
+        <motion.h1 className='text-black text-3xl md:text-4xl lg:text-5xl xl:text-6xl bg-black font-bold my-1 absolute'
         initial={{translateY: '0'}}
-        whileInView={{translateY: '100%'}}
+        whileInView={{translateY: '110%'}}
         transition={{duration: 1, ease: 'easeIn'}}
         viewport={{once: true}}
         >HEY! I'M CODEXRJ</motion.h1>
         
-          <h2 className='text-csGreen text-3xl lg:text-4xl font-bold my-1 mb-8 z-0 relative overflow-hidden'>FRONT END DEVELOPER</h2>
-          <motion.h2 className='text-black bg-black text-3xl lg:text-4xl font-bold absolute'
-          initial={{translateY: '145%'}}
-          whileInView={{translateY: '220%'}}
+          <h2 className='text-csGreen text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold my-3 mb-8 z-0 relative overflow-hidden'>MERN STACK DEVELOPER</h2>
+          <motion.h2 className='text-black bg-black text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold absolute'
+          initial={{translateY: '120%'}}
+          whileInView={{translateY: '250%'}}
           transition={{duration: 1, ease: 'easeIn'}}
           viewport={{once: true}}
-          >FRONT END DEVELOPER</motion.h2>
+          >MERN STACK DEVELOPER</motion.h2>
        
         
 
-        <div className='relative overflow-hidden'>
-          <p className='text-gray-400 text-base md:text-lg lg:text-xl my-1 w-fit'>Crafting responsive, user-friendly websites that bring ideas to life with clean code and creative design.</p>
-          <motion.p className='text-black text-base md:text-lg lg:text-xl absolute bg-black '
+        <div className='relative overflow-hidden pr-12'>
+          <p className='text-gray-400 text-md md:text-xl lg:text-2xl xl:text-3xl w-fit'>Crafting responsive, user-friendly websites that bring ideas to life with clean code and creative design.</p>
+          <motion.p className='text-black text-md md:text-xl lg:text-2xl xl:text-3xl absolute bg-black '
           initial={{translateY: '-100%'}}
           whileInView={{translateY: '0'}}
           transition={{duration: 1, ease: 'easeIn'}}

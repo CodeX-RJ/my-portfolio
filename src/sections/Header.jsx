@@ -11,7 +11,7 @@ const Header = () => {
   }
   return (
     <header>
-      <nav className='flex justify-around bg-slate-950 text-white font-sans p-2 md:p-3 lg:p-2 fixed shadow-md w-full items-center z-20'>
+      <nav className='flex justify-around bg-slate-950 text-white font-sans p-2 md:p-3 lg:p-2 fixed shadow-md w-full items-center z-20 lg:px-28'>
       <h1 className='w-1/2 md:ml-5 text-csGreen text-2xl font-bold'>CodeX-RJ</h1>
       <ul className='hidden md:flex justify-around w-1/2 text-lg'>
         <li className='hover:text-csGreen cursor-pointer transition-all text-sm lg:text-base xl:text-lg'><a href="#home">HOME</a></li>

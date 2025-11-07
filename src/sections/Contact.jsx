@@ -36,11 +36,11 @@ const Contact = () => {
   return (
     <section
       style={{ backgroundImage: `url(${Codingbackground})` }}
-      className='bg-cover bg-no-repeat'
+      className='bg-cover bg-no-repeat lg:px-64'
       id='contact'
     >
       <div className='backdrop-blur-sm p-5 md:p-40 lg:p-64 lg:py-5 md:pt-5'>
-        <h1 className='text-csGreen font-bold text-2xl text-center pt-20 pb-5'>
+        <h1 className='text-csGreen font-bold text-2xl lg:text-3xl xl:text-4xl text-center pt-20 pb-5'>
           LET'S CONNECT
         </h1>
 

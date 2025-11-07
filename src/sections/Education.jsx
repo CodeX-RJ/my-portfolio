@@ -13,8 +13,8 @@ const Education = () => {
 
 
   return (
-    <section className='bg-gray-950 h-full p-8' id='education'>
-        <h1 className='text-csGreen font-bold text-2xl text-center py-20'>
+    <section className='bg-gray-950 h-full p-8 lg:px-32' id='education'>
+        <h1 className='text-csGreen font-bold text-2xl lg:text-3xl xl:text-4xl text-center py-20'>
           EDUCATION AND CERTIFICATIONS
         </h1>
         

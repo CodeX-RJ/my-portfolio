@@ -9,7 +9,7 @@ import Contact from "./sections/Contact"
 export default function App() {
 
   return (
-    <>
+    <div>
     <Header/>  
     <HeroSection/>
     <About/>
@@ -17,6 +17,6 @@ export default function App() {
     <Education/>
     <Project/>
     <Contact/>
-    </>
+    </div>
   )
 }
