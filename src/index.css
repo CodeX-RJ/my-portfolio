@@ -5,3 +5,19 @@ html
 {
     scroll-behavior: smooth;
 }
+
+#underLine,
+#underLine2,
+#underLine3,
+#underLine4,
+#underLine5 {
+  transition: left 0.5s ease-in-out;
+}
+
+#linkText:hover #underLine,
+#linkText2:hover #underLine2,
+#linkText3:hover #underLine3,
+#linkText4:hover #underLine4,
+#linkText5:hover #underLine5 {
+  left: 0;
+}
