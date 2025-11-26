@@ -132,7 +132,7 @@ const Project = () => {
             <p className='text-base text-center italic text-gray-300 '>A secure MERN Authentication App that enables users to register, log in, and manage their accounts with ease. It features JWT-based authentication, protected routes, and a responsive, user-friendly interface. The app ensures secure handling of user data while providing smooth navigation and a seamless experience across all devices.</p>
 
 
-            <a href="https://codex-rj.github.io/snakegame/" className='md:hidden flex justify-center mt-4' target='blank'>
+            <a href="https://rj-mern-authentication.onrender.com/" className='md:hidden flex justify-center mt-4' target='blank'>
                       <button className='bg-csGreen border-2 border-csGreen  text-black m-2 ml-0 px-4 py-2 text-sm sm:text-lg font-semibold transition-colors duration-300 ease-linear hover:text-csGreen hover:bg-black'
                       >View Project</button></a>
 
@@ -141,7 +141,7 @@ const Project = () => {
             whileHover={{opacity: '100%'}}
             transition={{duration: 0.5, ease:'easeInOut'}}
             >
-              <a href="https://codex-rj.github.io/snakegame/" target="_blank" rel="noopener noreferrer"><motion.button className='bg-csGreen border-2 border-csGreen  text-black m-2 ml-0 px-4 py-2 text-sm sm:text-lg font-semibold transition-colors duration-300 ease-linear hover:text-csGreen hover:bg-black'
+              <a href="https://rj-mern-authentication.onrender.com/" target="_blank" rel="noopener noreferrer"><motion.button className='bg-csGreen border-2 border-csGreen  text-black m-2 ml-0 px-4 py-2 text-sm sm:text-lg font-semibold transition-colors duration-300 ease-linear hover:text-csGreen hover:bg-black'
               >View Project</motion.button></a>
               
             </motion.div>
